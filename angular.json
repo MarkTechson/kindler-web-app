@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kindler-web-app"
+    }
+  },
+  "defaultProject": "kindler-web-app",
+  "cli": {
+    "analytics": false
+  }
 }

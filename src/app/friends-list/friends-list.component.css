@@ -1,0 +1,4 @@
+.friends-list, section > section {
+    display: flex;
+    flex-wrap: wrap;
+}

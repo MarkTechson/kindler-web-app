@@ -1,0 +1,14 @@
+section.content, main > section {
+    display: flex;
+    padding: 10px;
+}
+header {
+    background: black;
+    color: white;
+    font-size: 20pt;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+app-friendslist, app-friends-list {
+    width: 50%;
+}

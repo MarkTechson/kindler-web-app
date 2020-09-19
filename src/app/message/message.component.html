@@ -1,0 +1,12 @@
+<article>
+    <img [src]="message.photo" [alt]="message.from" />
+    <div>
+        <p>
+            {{message.from}}
+            <svg height="10" width="10" *ngIf="message.online">
+                <circle cx="5" cy="5" r="4" stroke="black" stroke-width="0" fill="green" />
+            </svg>
+        </p>
+        <p>{{message.text}}</p>
+    </div>
+</article>
